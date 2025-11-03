@@ -12,7 +12,7 @@ map.on('load', function() {
 
   map.addSource('points-data', {
         type: 'geojson',
-        data: 'https://raw.githubusercontent.com/corywack/BAHA-map/refs/heads/main/data/map.geojson'
+        data: 'https://raw.githubusercontent.com/corywack/BAHA-map/main/data/map.geojson'
     });
 
   map.addLayer({
